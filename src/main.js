@@ -49,6 +49,8 @@ function handlerSubmit(event) {
         });
         return;
       }
+      console.log(data.hits);
+
       gallery.insertAdjacentHTML('beforeend', createMarkup(data.hits));
       const lightBox = new SimpleLightbox('.gallery a', {
         captionDelay: 250,
