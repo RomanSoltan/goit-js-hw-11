@@ -83,7 +83,7 @@
   text-align: center;
 }
 
-/* .modal {
+.modal {
   width: 1112px;
   padding: 28px 0;
 }
@@ -101,7 +101,7 @@
 .sl-wrapper button.sl-close,
 .sl-wrapper div.sl-counter {
   color: #fff;
-} */
+}
 
 .loader {
   display: none;
